@@ -1,8 +1,12 @@
-window.onload = choosePic;
+let images = ["CatMemes.jpeg"];
+//
+// document.getElementById("myBtn").addEventListener("click", () => {
+//     document.getElementById("myImg").src = images[Math.floor(Math.random() * images.length)];
+// })
 
-var myPix = ["images/lion.jpg","images/tiger.jpg","images/bear.jpg"];
+document.getElementById("myBtn").addEventListener("click",generate)
 
-function choosePic() {
-    var randomNum = Math.floor(Math.random() * myPix.length);
-    document.getElementById("myPicture").src = myPix[randomNum];
+function generate() {
+    console.log("clicked generate")
+    document.getElementById("myImg").src = images[Math.floor(Math.random() * images.length)];
 }

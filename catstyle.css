@@ -18,9 +18,9 @@ body {
 
 .back-button {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 5px 10px;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
     font-size: 16px;
     background-color: #ff7f50; /* Coral color for the back button */
     color: #ffffff; /* White text color for the back button */
@@ -29,7 +29,32 @@ body {
     cursor: pointer;
 }
 
+.back-button:hover {
+    background-color: #ff6347; /* Darker coral background color on hover for the back button */
+}
+
 h1 {
     font-size: 32px;
     margin-bottom: 20px;
+}
+
+#myImg {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#myBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green background color for the button */
+    color: #ffffff; /* White text color for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#myBtn:hover {
+    background-color: #45a049; /* Darker green background color on hover for the button */
 }
