@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cceeff; /* Light blue background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Center the content vertically on the page */
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff; /* White box background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow to the box */
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Green background color for the buttons */
+    color: #ffffff; /* White text color for the buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green background color on hover for the buttons */
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff7f50; /* Coral color for the back button */
+    color: #ffffff; /* White text color for the back button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #ff6347; /* Darker coral background color on hover for the back button */
+}
