@@ -3,5 +3,5 @@ let images = ["m44.png","m45.png","m50.png","m49.png","m48.png","m47.png","m46.p
 document.getElementById("myBtn").addEventListener("click",generate)
 
 function generate() {
-    document.getElementById("myImg").src = images[m];
+    document.getElementById("myImg").src = images[ Math.floor(Math.random() * images.length)];
 }
